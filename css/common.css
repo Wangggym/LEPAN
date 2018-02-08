@@ -1,0 +1,31 @@
+.inner {
+  width: 1300px;
+  margin: 0 auto;
+}
+header {
+  background: linear-gradient(90deg, #0093dd, #abd305);
+}
+header img {
+  padding-top: 18px;
+}
+header ul li {
+  float: left;
+}
+header ul li a {
+  height: 80px;
+  line-height: 80px;
+  color: white;
+  font-size: 18px;
+  width: 76px;
+}
+header .search a {
+  background: url('../images/01.png') no-repeat center center / contain;
+}
+header .talk a {
+  background: url('../images/02.png') no-repeat center center / contain;
+}
+header .back_img a {
+  background-size: 32px;
+  width: 50px;
+}
+/*# sourceMappingURL=common.css.map */
