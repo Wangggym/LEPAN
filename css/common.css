@@ -18,6 +18,10 @@ header ul li a {
   font-size: 18px;
   width: 76px;
 }
+header ul li a:hover {
+  color: #0194db;
+  transition: 0.2s;
+}
 header .search a {
   background: url('../images/01.png') no-repeat center center / contain;
 }
@@ -27,5 +31,52 @@ header .talk a {
 header .back_img a {
   background-size: 32px;
   width: 50px;
+}
+.banner img {
+  width: 100%;
+  vertical-align: top;
+}
+footer .top_content {
+  margin-left: 134px;
+  padding: 80px 0;
+  display: flex;
+}
+footer .top_content dl {
+  flex: 1;
+}
+footer .top_content dl dt {
+  height: 60px;
+  line-height: 60px;
+  font-weight: bold;
+  color: #292422;
+}
+footer .top_content dl dd a {
+  height: 40px;
+  line-height: 40px;
+  color: #a0a09f;
+}
+footer .bottom_content {
+  height: 205px;
+  background: #f5f5f5;
+}
+footer .bottom_content .left_content {
+  margin-left: 134px;
+  color: #a6a5a5;
+  font-size: 14px;
+}
+footer .bottom_content .left_content div {
+  line-height: 60px;
+  height: 60px;
+}
+footer .bottom_content .left_content p {
+  line-height: 25px;
+  height: 20px;
+}
+footer .bottom_content .right_content {
+  padding-top: 80px;
+}
+footer .bottom_content .right_content a {
+  float: left;
+  padding-right: 30px;
 }
 /*# sourceMappingURL=common.css.map */

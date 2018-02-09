@@ -1,0 +1,69 @@
+
+main {
+  .top_content {
+    padding: 133px 0;
+    border-bottom: 1px solid #dedcdb;
+    ul {
+      display: flex;
+      justify-content: space-between;
+      li {
+        flex: 1;
+        a {
+          width: 100%;
+          display: inline-block;
+          text-align: center;
+          border-right: 1px solid #d3cfcf;
+          span {
+            display: block;
+            height: 103px;
+            width: 100%;
+            background: url("../images/06.png") no-repeat center center / contain;
+          }
+          div {
+            height: 40px;
+            line-height: 40px;
+            color: #959493;
+            font-size: 14px;
+
+          }
+          h3 {
+            color: #1f1a17;
+            line-height: 30px;
+            height: 30px;
+            font-size: 20px;
+          }
+          p {
+            color: #959493;
+            line-height: 40px;
+            height: 40px;
+          }
+        }
+        .ABOUT span{
+          background-image: url("../images/06.png");
+        }
+        .PRODUCTS span{
+          background-image: url("../images/07.png");
+        }
+        .SERVICE span{
+          background-image: url("../images/08.png");
+        }
+        .ABOUT:hover span{
+          transition: 0.3s;
+          background-image: url("../images/15.png");
+        }
+        .PRODUCTS:hover span{
+          transition: 0.3s;
+          background-image: url("../images/16.png");
+        }
+        .SERVICE:hover span{
+          transition: 0.3s;
+          background-image: url("../images/17.png");
+        }
+      }
+      li:last-child a {
+        border-right: none;
+      }
+    }
+  }
+
+}
