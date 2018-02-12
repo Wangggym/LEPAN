@@ -8,7 +8,7 @@ img {
     vertical-align: top;
 }
 
-input {
+input, textarea{
     border: none;
     outline: none;
 }
@@ -32,7 +32,6 @@ ul, dl {
 
 a {
     text-decoration: none;
-    display: block;
 }
 
 .floatL {
@@ -41,11 +40,6 @@ a {
 
 .floatR {
     float: right;
-}
-
-a {
-    text-decoration: none;
-    display: block;
 }
 
 body {

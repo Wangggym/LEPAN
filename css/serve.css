@@ -1,0 +1,148 @@
+main .blank {
+  height: 125px;
+  border-bottom: 1px solid #e0dedd;
+}
+main .inner_inner {
+  padding: 0 150px;
+}
+main h5 {
+  height: 125px;
+  line-height: 125px;
+  font-size: 16px;
+}
+main .download .title {
+  height: 26px;
+  line-height: 26px;
+  width: 120px;
+  color: #8d8c8b;
+  background: url("../images/24.png") no-repeat center right / contain;
+  margin: 40px 0;
+}
+main .download a {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+main .download a .left {
+  height: 30px;
+  line-height: 30px;
+  background-color: #edecec;
+  text-align: center;
+  color: #8c8b8a;
+  font-size: 14px;
+  width: 100%;
+  margin-right: 10px;
+}
+main .tell_phone {
+  text-align: center;
+  height: 135px;
+}
+main .serve_info {
+  color: #838281;
+  line-height: 28px;
+  font-size: 14px;
+  padding: 30px 0 80px 0;
+  text-indent: 2em;
+}
+main .after_sale {
+  text-align: center;
+  height: 300px;
+}
+main .form {
+  height: 585px;
+  box-sizing: border-box;
+  margin: 30px 0;
+  background: url("../images/27.png") no-repeat center / contain;
+}
+main .form h6 {
+  text-indent: 4em;
+  padding-top: 46px;
+  text-align: center;
+  line-height: 68px;
+  font-size: 14px;
+  color: #838281;
+}
+main .form h6 span {
+  font-size: 16px;
+}
+main .form form {
+  padding: 0 170px;
+}
+main .form form label {
+  width: 80px;
+  height: 25px;
+  line-height: 25px;
+  font-size: 16px;
+  color: #838281;
+}
+main .form form textarea {
+  flex: 1;
+  resize: none;
+  height: 200px;
+  border: 1px solid #cecdcd;
+  font-size: 16px;
+  color: #838281;
+  text-indent: 2em;
+}
+main .form form input {
+  text-indent: 1em;
+  width: 220px;
+  height: 20px;
+  border: 1px solid #cecdcd;
+  font-size: 16px;
+  color: #838281;
+}
+main .form form .msg {
+  display: flex;
+  padding-bottom: 30px;
+}
+main .form form .input_item {
+  display: flex;
+  padding-bottom: 18px;
+}
+main .form form .input_group {
+  display: flex;
+  justify-content: space-between;
+}
+main .form form .button {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 120px;
+}
+main .form form .button > div {
+  height: 22px;
+  width: 145px;
+  line-height: 22px;
+  color: white;
+  text-align: center;
+  font-size: 16px;
+}
+main .form form .button .submit {
+  background: linear-gradient(90deg, #0093dd, #abd305);
+}
+main .form form .button .clear {
+  background: #c2c1c1;
+}
+main .company_info {
+  padding-left: 130px;
+  color: #9b9a99;
+}
+main .company_info h5 {
+  line-height: 90px;
+  font-size: 20px;
+}
+main .company_info p {
+  height: 30px;
+  font-size: 17px;
+}
+main .link {
+  padding-bottom: 180px;
+  text-align: center;
+}
+main .link div a {
+  height: 44px;
+  line-height: 44px;
+  color: #9f9e9d;
+  padding: 0 10px;
+}
+/*# sourceMappingURL=serve.css.map */
