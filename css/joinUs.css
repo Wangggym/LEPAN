@@ -1,0 +1,24 @@
+main .inner {
+  padding-left: 105px;
+}
+main img {
+  padding: 110px 0;
+}
+main .content h5 {
+  line-height: 60px;
+  font-size: 25px;
+}
+main .content p {
+  font-size: 14px;
+  line-height: 28px;
+  color: #908f8e;
+}
+main .company_info h5 {
+  line-height: 90px;
+  font-size: 20px;
+}
+main .company_info p {
+  height: 30px;
+  font-size: 17px;
+}
+/*# sourceMappingURL=joinUs.css.map */

@@ -1,0 +1,34 @@
+main .title {
+  padding-top: 80px;
+  line-height: 42px;
+  font-size: 18px;
+  color: #838281;
+  border-bottom: 1px solid #dddbda;
+  text-indent: 2em;
+}
+main .content {
+  padding: 0 150px 110px;
+}
+main .content h4 {
+  height: 130px;
+  line-height: 130px;
+  text-align: center;
+  padding-bottom: 50px;
+}
+main .content p {
+  line-height: 30px;
+  font-size: 16px;
+  color: #878685;
+  padding-bottom: 26px;
+}
+main .content .pagination {
+  padding-top: 110px;
+  padding-bottom: 130px;
+  border-bottom: 1px solid #dddbda;
+}
+main .content .pagination div a {
+  line-height: 30px;
+  font-size: 16px;
+  color: #878685;
+}
+/*# sourceMappingURL=newsDetails.css.map */
