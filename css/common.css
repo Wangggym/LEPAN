@@ -80,4 +80,79 @@ footer .bottom_content .right_content a {
   float: left;
   padding-right: 30px;
 }
+.form {
+  height: 585px;
+  box-sizing: border-box;
+  margin: 30px 0;
+  background: url("../images/27.png") no-repeat center / contain;
+}
+.form h6 {
+  text-indent: 4em;
+  padding-top: 46px;
+  text-align: center;
+  line-height: 68px;
+  font-size: 14px;
+  color: #838281;
+}
+.form h6 span {
+  font-size: 16px;
+}
+.form form {
+  padding: 0 170px;
+}
+.form form label {
+  width: 80px;
+  height: 25px;
+  line-height: 25px;
+  font-size: 16px;
+  color: #838281;
+}
+.form form textarea {
+  flex: 1;
+  resize: none;
+  height: 200px;
+  border: 1px solid #cecdcd;
+  font-size: 16px;
+  color: #838281;
+  text-indent: 2em;
+}
+.form form input {
+  text-indent: 1em;
+  width: 220px;
+  height: 20px;
+  border: 1px solid #cecdcd;
+  font-size: 16px;
+  color: #838281;
+}
+.form form .msg {
+  display: flex;
+  padding-bottom: 30px;
+}
+.form form .input_item {
+  display: flex;
+  padding-bottom: 18px;
+}
+.form form .input_group {
+  display: flex;
+  justify-content: space-between;
+}
+.form form .button {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 120px;
+}
+.form form .button > div {
+  height: 22px;
+  width: 145px;
+  line-height: 22px;
+  color: white;
+  text-align: center;
+  font-size: 16px;
+}
+.form form .button .submit {
+  background: linear-gradient(90deg, #0093dd, #abd305);
+}
+.form form .button .clear {
+  background: #c2c1c1;
+}
 /*# sourceMappingURL=common.css.map */
