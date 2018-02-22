@@ -1,0 +1,35 @@
+main {
+  padding-top: 100px;
+}
+main .inner {
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+main .inner_inner {
+  padding: 0 150px 220px;
+}
+main .inner_inner h4 {
+  height: 130px;
+  line-height: 130px;
+}
+main .inner_inner .description {
+  text-align: center;
+}
+main .inner_inner .description h6 {
+  height: 44px;
+  line-height: 44px;
+  color: #a7a6a5;
+}
+main .inner_inner .description p {
+  border-top: 1px solid #9f9e9d;
+  border-bottom: 1px solid #9f9e9d;
+  padding: 25px 54px;
+  line-height: 28px;
+  font-size: 14px;
+  color: #a7a6a5;
+  text-indent: 3em;
+}
+main .inner_inner .description .pic {
+  padding: 200px 0;
+}
+/*# sourceMappingURL=productVOC.css.map */

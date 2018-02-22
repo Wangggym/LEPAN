@@ -1,0 +1,46 @@
+main {
+  padding-top: 100px;
+}
+main .inner {
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+main .inner_inner {
+  padding: 0 150px 220px;
+}
+main .inner_inner h4 {
+  height: 130px;
+  line-height: 130px;
+}
+main .inner_inner .pro_list .pro_item {
+  float: left;
+  width: 256px;
+  margin-bottom: 67px;
+  margin-right: 60px;
+}
+main .inner_inner .pro_list .pro_item .img {
+  width: 256px;
+  background: url("../images/41.png") no-repeat center center / cover;
+}
+main .inner_inner .pro_list .pro_item .img img {
+  width: 100%;
+  height: 100%;
+}
+main .inner_inner .pro_list .pro_item .info {
+  border-bottom: 2px solid #ccc;
+}
+main .inner_inner .pro_list .pro_item .info .title {
+  line-height: 42px;
+  font-size: 14px;
+  color: #9e9c9b;
+  text-align: center;
+  border-bottom: 1px solid #b8b7b6;
+}
+main .inner_inner .pro_list .pro_item .info .content {
+  line-height: 16px;
+  font-size: 10px;
+  color: #9d9b9b;
+  padding: 10px 0;
+  text-indent: 3em;
+}
+/*# sourceMappingURL=product.css.map */
