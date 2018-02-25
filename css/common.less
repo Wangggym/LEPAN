@@ -36,10 +36,49 @@ header {
 }
 
 .banner {
-  //height: 650px;
-  img {
+  width: 100%;
+  min-width: 1600px;
+  min-height: 650px;
+  position: relative;
+  .hide {
+    display: none;
+  }
+  ul {
     width: 100%;
-    vertical-align: top;
+    position: absolute;
+    top: 0;
+    left: 0;
+    li {
+      width: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      a {
+        width: 100%;
+        img {
+          width: 100%;
+          min-width: 1600px;
+          vertical-align: top;
+        }
+      }
+    }
+  }
+  .btn {
+    position: absolute;
+    width: 30px;
+    height: 50px;
+    top: 42%;
+    margin-top: -20px;
+    background-color: rgba(0, 0, 0, 0.1);
+    text-align: center;
+    line-height: 60px;
+    padding-top: 12px;
+  }
+  .prevBtn {
+    left: 50px;
+  }
+  .nextBtn {
+    right: 50px;
   }
 }
 

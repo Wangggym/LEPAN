@@ -33,9 +33,51 @@ header .back_img a {
   background-size: 32px;
   width: 50px;
 }
-.banner img {
+.banner {
   width: 100%;
+  min-width: 1600px;
+  min-height: 650px;
+  position: relative;
+}
+.banner .hide {
+  display: none;
+}
+.banner ul {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.banner ul li {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.banner ul li a {
+  width: 100%;
+}
+.banner ul li a img {
+  width: 100%;
+  min-width: 1600px;
   vertical-align: top;
+}
+.banner .btn {
+  position: absolute;
+  width: 30px;
+  height: 50px;
+  top: 42%;
+  margin-top: -20px;
+  background-color: rgba(0, 0, 0, 0.1);
+  text-align: center;
+  line-height: 60px;
+  padding-top: 12px;
+}
+.banner .prevBtn {
+  left: 50px;
+}
+.banner .nextBtn {
+  right: 50px;
 }
 footer .top_content {
   margin-left: 134px;

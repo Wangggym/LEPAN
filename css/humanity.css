@@ -29,6 +29,8 @@ main .history .right_content .top .middle {
 main .aptitude {
   padding-bottom: 150px;
   border-bottom: 1px solid #e0dedd;
+  text-align: center;
+  margin-top: 30px;
 }
 main .aptitude h4 {
   text-align: center;
