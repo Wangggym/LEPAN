@@ -2,7 +2,31 @@ main ul li {
   float: left;
   width: 50%;
 }
-main ul li img {
+main ul li a {
+  position: relative;
+}
+main ul li a > img {
   width: 100%;
+}
+main ul li a .content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-align: center;
+  padding-top: 12%;
+  width: 100%;
+}
+main ul li a .content h4 {
+  color: #000;
+  line-height: 100px;
+}
+main ul li a .content p {
+  padding: 0 32%;
+  font-size: 14px;
+  line-height: 20px;
+  color: #000;
+}
+main ul li a .content img {
+  padding-top: 5%;
 }
 /*# sourceMappingURL=productInfo.css.map */

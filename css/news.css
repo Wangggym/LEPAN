@@ -20,6 +20,9 @@
   font-size: 14px;
   color: #9a9a99;
 }
+.news_item dd a:hover {
+  text-decoration: underline;
+}
 .more a {
   height: 54px;
   line-height: 54px;
@@ -27,5 +30,9 @@
   font-size: 14px;
   margin-top: 60px;
   text-align: right;
+  float: right;
+}
+.more a:hover {
+  text-decoration: underline;
 }
 /*# sourceMappingURL=news.css.map */

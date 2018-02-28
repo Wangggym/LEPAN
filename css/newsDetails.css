@@ -31,4 +31,7 @@ main .content .pagination div a {
   font-size: 16px;
   color: #878685;
 }
+main .content .pagination div a:hover {
+  text-decoration: underline;
+}
 /*# sourceMappingURL=newsDetails.css.map */

@@ -1,5 +1,4 @@
 $(function () {
-    lunbo();
     function lunbo() {
         var $ol = $('.banner ol li');
         var $ul = $('.banner ul li');
@@ -48,4 +47,23 @@ $(function () {
             move();
         })
     }
+    function setHeaderAcTive() {
+        var titleType = {
+            'index': 1,
+            'product': 2,
+            'case': 3,
+            "serve": 4,
+            'news': 5,
+            'humanity': 6,
+            'joinUs': 7
+        };
+        for (var key in titleType) {
+            if (window.location.pathname.indexOf(key) !== -1) {
+                var $li = $('header div ul li');
+                $li.eq(titleType[key]-1).addClass('active').siblings().removeClass('active');
+            }
+        }
+    }
+    lunbo();
+    setHeaderAcTive();
 })

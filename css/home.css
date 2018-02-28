@@ -37,6 +37,7 @@ main .top_content ul li a p {
   color: #959493;
   line-height: 40px;
   height: 40px;
+  font-size: 14px;
 }
 main .top_content ul li .ABOUT span {
   background-image: url("../images/06.png");

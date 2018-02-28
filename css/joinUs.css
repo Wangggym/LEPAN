@@ -1,5 +1,5 @@
 main .inner {
-  padding-left: 105px;
+  padding-left: 350px;
 }
 main img {
   padding: 110px 0;
@@ -11,6 +11,9 @@ main .content h5 {
 main .content p {
   font-size: 14px;
   line-height: 28px;
+  color: #908f8e;
+}
+main .company_info {
   color: #908f8e;
 }
 main .company_info h5 {

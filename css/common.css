@@ -8,6 +8,9 @@ header {
 header img {
   padding-top: 18px;
 }
+header .active a {
+  color: #0194db;
+}
 header ul li {
   float: left;
 }
@@ -18,6 +21,7 @@ header ul li a {
   color: white;
   font-size: 18px;
   width: 76px;
+  text-align: center;
 }
 header ul li a:hover {
   color: #0194db;
@@ -33,9 +37,13 @@ header .back_img a {
   background-size: 32px;
   width: 50px;
 }
+.banner_fixed img {
+  width: 100%;
+  height: 100%;
+}
 .banner {
   width: 100%;
-  min-width: 1600px;
+  min-width: 1300px;
   min-height: 650px;
   position: relative;
 }
@@ -59,7 +67,7 @@ header .back_img a {
 }
 .banner ul li a img {
   width: 100%;
-  min-width: 1600px;
+  min-width: 1300px;
   vertical-align: top;
 }
 .banner .btn {
@@ -86,17 +94,21 @@ footer .top_content {
 }
 footer .top_content dl {
   flex: 1;
+  color: #a0a09f;
 }
 footer .top_content dl dt {
   height: 60px;
   line-height: 60px;
   font-weight: bold;
-  color: #292422;
 }
 footer .top_content dl dd a {
   height: 40px;
   line-height: 40px;
-  color: #a0a09f;
+  color: #a6a5a5;
+  font-size: 14px;
+}
+footer .top_content dl dd a:hover {
+  text-decoration: underline;
 }
 footer .bottom_content {
   height: 205px;

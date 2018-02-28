@@ -2,8 +2,32 @@ main {
   ul li {
     float: left;
     width: 50%;
-    img{
-      width: 100%;
+    a {
+      position: relative;
+      > img {
+        width: 100%;
+      }
+      .content {
+        position: absolute;
+        top: 0;
+        left: 0;
+        text-align: center;
+        padding-top: 12%;
+        width: 100%;
+        h4 {
+          color: #000;
+          line-height: 100px;
+        }
+        p {
+          padding: 0 32%;
+          font-size: 14px;
+          line-height: 20px;
+          color: #000;
+        }
+        img{
+          padding-top: 5%;
+        }
+      }
     }
   }
 }
