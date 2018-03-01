@@ -2,6 +2,12 @@ main {
   ul li {
     float: left;
     width: 50%;
+    &:hover{
+      .pic{
+        transition: 0.3s;
+        background: url("../images/34-1.png") no-repeat center / cover !important;
+      }
+    }
     a {
       position: relative;
       > img {
@@ -24,10 +30,15 @@ main {
           line-height: 20px;
           color: #000;
         }
-        img{
-          padding-top: 5%;
+        .pic {
+          margin-top: 5%;
+          display: inline-block;
+          width: 27px;
+          height: 27px;
+          background: url("../images/34.png") no-repeat center / cover;
         }
       }
     }
   }
+
 }
