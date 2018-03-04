@@ -1,0 +1,51 @@
+main {
+  padding-top: 170px;
+}
+main .blank {
+  height: 200px;
+}
+main .online .inner {
+  height: 500px;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+main .online .inner .content_item {
+  color: rgba(112, 112, 112, 0.9);
+  width: 210px;
+  border-left: 3px solid white;
+  padding-left: 20px;
+}
+main .online .inner .content_item p {
+  line-height: 18px;
+  font-size: 14px;
+}
+main .online .inner .content_item img {
+  padding: 20px 0;
+}
+main .online .inner .content_item h5 {
+  font-weight: normal;
+  font-size: 18px;
+}
+main .online .inner .content_item h3 {
+  font-weight: normal;
+  font-size: 24px;
+  padding-bottom: 20px;
+}
+main .water {
+  background-color: #87c97f;
+}
+main .water .inner {
+  background: url("../images/76.png") no-repeat 20px 20px;
+}
+main .smoke {
+  background-color: #4db7bc;
+}
+main .smoke .inner {
+  background: url("../images/77.png") no-repeat 20px 20px;
+}
+main .brand {
+  text-align: center;
+  padding-bottom: 95px;
+  border-bottom: #e2e0df 2px solid;
+}

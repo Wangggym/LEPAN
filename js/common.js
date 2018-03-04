@@ -4,7 +4,7 @@ $(function () {
         var $ul = $('.banner ul li');
         var $prevBtn = $('#prevBtn');
         var $nextBtn = $('#nextBtn');
-        var n = 1;
+        var n = 0;
         var t = null;
         var timeOutTimer = null
 
@@ -17,9 +17,9 @@ $(function () {
             timeOutTimer = setTimeout(function () {
                 t = setInterval(function () {
                     n++;
-                    if (n == $ol.length) n = 1;
+                    if (n == $ol.length) n = 0;
                     fadeIng(n);
-                }, 3000);
+                }, 2500);
             }, 500);
         };
         move();
@@ -32,7 +32,7 @@ $(function () {
 //                });
         $prevBtn.on('click', function () {
             n--;
-            if (n == 0) n = $ol.length - 1;
+            if (n == -1) n = $ol.length-1;
             fadeIng(n);
             clearTimeout(timeOutTimer);
             clearInterval(t);
@@ -40,7 +40,7 @@ $(function () {
         });
         $nextBtn.on('click', function () {
             n++;
-            if (n == $ol.length) n = 1;
+            if (n == $ol.length) n = 0;
             fadeIng(n);
             clearTimeout(timeOutTimer);
             clearInterval(t);
