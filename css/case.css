@@ -49,3 +49,36 @@ main .brand {
   padding-bottom: 95px;
   border-bottom: #e2e0df 2px solid;
 }
+#history_1{
+    font-size: 14px;
+}
+ #history_1 {height:600px; background-color:#4db7bc; overflow:hidden;}
+ #history_1 .viewport {position:relative;  margin:0 auto; width:1132px; height:100%; background:url(../images/77.png) no-repeat 2px 20px; overflow:visible;}
+ #history_1 .viewport .btn {position:absolute; top:50%; z-index:2; margin-top:-22px; width:44px; height:44px; background:no-repeat 0 0;}
+ #history_1 .viewport .prev {left: -57px;background-image:url(../images/btn_prev.png);}
+ #history_1 .viewport .next {right: -57px;background-image:url(../images/btn_next.png);}
+ #history_1 .viewport .wrap {position:relative; left:0; top:0; z-index:1; width:100%; height:100%;}
+ #history_1 .viewport .wrap .item {position:absolute; bottom:-100%; width:283px; background:url(../images/p_4_3.jpg) repeat-y 6px 0; -webkit-transition:bottom 500ms; transition:bottom 300ms;}
+ #history_1 .viewport .wrap .on {bottom:0;}
+ #history_1 .viewport .wrap .item div {padding:5px 16px 5px 29px ;background:url(../images/p_4_8.png) no-repeat 0 0;}
+ #history_1 .viewport .wrap .item div p {margin-bottom:20px; line-height:18px; color: #377a7f;}
+ #history_1 .viewport .wrap .item div .year {display:block; margin:-10px 0 30px 0; font:lighter 28px "myriadsetpro" !important; color: #41858a;}
+#history_1 .viewport .wrap .item div .title {display:block; font:lighter 20px "myriadsetpro" !important; color:#41858a;line-height: 20px}
+
+#history{
+    font-size: 14px;
+}
+#history {height:600px; background-color:#87c97f; overflow:hidden;}
+#history .viewport {position:relative;  margin:0 auto; width:1132px; height:100%; background:url(../images/76.png) no-repeat 2px 20px; overflow:visible;}
+#history .viewport .btn {position:absolute; top:50%; z-index:2; margin-top:-22px; width:44px; height:44px; background:no-repeat 0 0;}
+#history .viewport .prev {left: -57px;background-image:url(../images/btn_prev.png);}
+#history .viewport .next {right: -57px;background-image:url(../images/btn_next.png);}
+#history .viewport .wrap {position:relative; left:0; top:0; z-index:1; width:100%; height:100%;}
+#history .viewport .wrap .item {position:absolute; bottom:-100%; width:283px; background:url(../images/p_4_3.jpg) repeat-y 6px 0; -webkit-transition:bottom 500ms; transition:bottom 300ms;}
+#history .viewport .wrap .on {bottom:0;}
+#history .viewport .wrap .item div {padding:5px 16px 5px 29px ;background:url(../images/p_4_2.png) no-repeat 0 0;}
+#history .viewport .wrap .item div p {margin-bottom:20px; line-height:18px; color:#3c5d38;}
+#history .viewport .wrap .item div .year {display:block; margin:-10px 0 30px 0; font:lighter 28px "myriadsetpro" !important; color:#34772b;}
+#history .viewport .wrap .item div .title {display:block; font:lighter 20px "myriadsetpro" !important; color:#34772b;line-height: 20px}
+
+

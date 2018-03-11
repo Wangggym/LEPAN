@@ -163,6 +163,7 @@ main .chronicle .content .right_item .item_content .time:after {
 }
 main .chronicle .content .left_item .item_content {
   text-align: right;
+  padding-right: 135px;
 }
 main .chronicle .content .left_item .item_content .time:before {
   content: '';
@@ -182,5 +183,16 @@ main .chronicle .content .left_item .item_content .time:after {
   height: 8px;
   background: #1f1a17;
   border-radius: 50%;
+}
+
+.layer-photos{
+  width: 475px;
+  height:315px;
+  overflow: hidden;
+  display: block;
+}
+.layer-photos img{
+  width: 100%;
+  height:100%;
 }
 /*# sourceMappingURL=humanity.css.map */

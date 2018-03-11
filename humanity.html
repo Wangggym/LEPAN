@@ -7,7 +7,24 @@
     <link rel="stylesheet" href="./css/common.css">
     <link rel="stylesheet" href="./css/humanity.css">
     <script src="js/jquery-3.1.0.min.js"></script>
+    <script src="js/layer/layer.js"></script>
     <script src="js/common.js"></script>
+    <script>
+        $(function() {
+            layer.ready(function(){
+            });
+
+//关于
+
+            $('#layer-photos-demo').on('click', function(){
+                console.log('12')
+                layer.photos({
+                    photos: '#layer-photos-demo'
+                    ,anim: 5 //0-6的选择，指定弹出图片动画类型，默认随机（请注意，3.0之前的版本用shift参数）
+                });
+            });
+        })
+    </script>
 </head>
 <body>
 <header>
@@ -85,7 +102,14 @@
                             <p>十月一日是我们成都总公司的乔迁之日，我们的心情无比的激动！</p>
                             <p>在这里，我们公司的全体员工衷心祝愿总公司乔迁吉祥，一切顺利！</p>
                         </div>
-                        <img src="./images/52_03.jpg" alt="">
+                        <!--<img src="./images/52_03.jpg" alt="">-->
+                        <a href="javascript:void(0);" id="layer-photos-demo" class="layer-photos">
+                            <img  layer-src="./images/52_03.jpg" src="./images/52_03.jpg" alt="">
+                            <img  layer-src="./images/52_03.jpg" src="./images/52_03.jpg" alt="">
+                            <img  layer-src="./images/52_03.jpg" src="./images/52_03.jpg" alt="">
+                            <img  layer-src="./images/52_03.jpg" src="./images/52_03.jpg" alt="">
+                            <img  layer-src="./images/52_03.jpg" src="./images/52_03.jpg" alt="">
+                        </a>
                     </div>
                 </div>
                 <div class="item left_item">

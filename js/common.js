@@ -7,7 +7,6 @@ $(function () {
         var n = 0;
         var t = null;
         var timeOutTimer = null
-
         function fadeIng(n) {
             $ol.eq(n).addClass('ac').siblings().removeClass('ac');
             $ul.eq(n).fadeIn().siblings().fadeOut();
